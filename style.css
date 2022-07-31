@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Raleway", sans-serif;
+}
+.nav {
+	height: 50px;
+	background-color: #333;
+	text-align: center;
+	line-height: 50px;
+	font-size: 0;
+}
+.nav-item {
+	display: inline-block;
+}
+.nav-item a {
+	padding: 0 50px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 3px;
+	transition: color 0.3s;
+	font-size: 16px;
+}
+.nav-item a:hover {
+	color: #0086f3;
+}
